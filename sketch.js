@@ -1,6 +1,6 @@
 let mImage;
 let xOff, yOff;
-let lastClickX = 0;
+// let lastClickX = 0;
 
 // Use DOM elements to help determine the tolerance range of each color
 // let picker;
@@ -137,6 +137,6 @@ function changeBlack(pixelIndex) { // If the pixel is Modriaan red, change its c
   mImage.pixels[pixelIndex + 2] = 66; // new B value
 }
 
-function mouseClicked() {
-  lastClickX = mouseX;
-}
+// function mouseClicked() {
+//   lastClickX = mouseX;
+// }
